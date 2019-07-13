@@ -96,5 +96,5 @@ public class MainActivity extends Activity {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/pouriaHemmati/PHhJustifiedTextView/blob/master/README.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/pouriaHemmati/JustifiedTextView/blob/master/README.md) file for details.
 
