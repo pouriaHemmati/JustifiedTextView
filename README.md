@@ -55,6 +55,7 @@ public class MainActivity extends Activity {
 		mJTv.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);
 		mJTv.setLineSpacing(15);
 		mJTv.setBackgroundColor(Color.RED);
+		// Left for English - Right for Persian
 		mJTv.setAlignment(Align.LEFT);
 		mJTv.setTypeFace(Typeface.createFromAsset(getAssets(), "fonts/naskh_bold.ttf"));
 
