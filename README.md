@@ -1,4 +1,4 @@
-# PHhJustifiedTextView for android (Persian - English)
+# JustifiedTextView for android (Persian - English)
 
 This project provides a view for android apps that implements justified text view.
 
