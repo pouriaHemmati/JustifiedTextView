@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <com.pouriahemati.phhjustifiedtextview.PHJustifiedTextView
+    <com.pouriahemati.justifiedtextview.JustifiedTextView
        android:id="@+id/txt_test"
        android:layout_width="0dp"
        android:layout_height="wrap_content"
