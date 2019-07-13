@@ -35,7 +35,7 @@ dependencies {
   ```
   <dependency>
 	    <groupId>com.github.pouriaHemmati</groupId>
-	    <artifactId>PHhJustifiedTextView</artifactId>
+	    <artifactId>JustifiedTextView</artifactId>
 	    <version>1.0.0</version>
 	</dependency>
 ```
