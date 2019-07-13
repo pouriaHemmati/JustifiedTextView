@@ -1,4 +1,4 @@
-# JustifiedTextView for android (Persian - English)
+# JustifiedTextView for android (Persian - English) [![](https://jitpack.io/v/pouriaHemmati/JustifiedTextView.svg)](https://jitpack.io/#pouriaHemmati/JustifiedTextView)
 
 This project provides a view for android apps that implements justified text view.
 
