@@ -90,4 +90,10 @@ public class MainActivity extends Activity {
 ```
 
 ## Authors
+
 [pouriaHemmati](https://github.com/pouriaHemmati)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/pouriaHemmati/PHhJustifiedTextView/blob/master/README.md) file for details.
+
