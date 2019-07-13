@@ -20,7 +20,7 @@ allprojects {
   
 ```
 dependencies {
-	        implementation 'com.github.pouriaHemmati:PHhJustifiedTextView:1.0.0'
+	        implementation 'com.github.pouriaHemmati:JustifiedTextView:1.0.0'
 	}
   ```
   If you use maven, add this
