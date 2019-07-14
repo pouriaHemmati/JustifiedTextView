@@ -44,20 +44,20 @@ dependencies {
 ```
 public class MainActivity extends Activity {
 
-	private JustifiedTextView mJTv;
+	private PHJustifiedTextView phjustifiedTextView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		mJTv=(JustifiedTextView) findViewById(R.id.activity_main_jtv_text);
-		mJTv.setText(getResources().getString(R.string.test));
-		mJTv.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);
-		mJTv.setLineSpacing(15);
-		mJTv.setBackgroundColor(Color.RED);
+		phjustifiedTextView= findViewById(R.id.activity_main_jtv_text);
+		phjustifiedTextView.setText(getResources().getString(R.string.test));
+		phjustifiedTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP,20);
+		phjustifiedTextView.setLineSpacing(15);
+		phjustifiedTextView.setBackgroundColor(Color.RED);
 		// Left for English - Right for Persian
-		mJTv.setAlignment(Align.LEFT);
-		mJTv.setTypeFace(Typeface.createFromAsset(getAssets(), "fonts/naskh_bold.ttf"));
+		phjustifiedTextView.setAlignment(Align.LEFT);
+		phjustifiedTextView.setTypeFace(Typeface.createFromAsset(getAssets(), "fonts/naskh_bold.ttf"));
 
 	}
 }
@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <com.pouriahemati.justifiedtextview.JustifiedTextView
+    <com.pouriahemati.phjustifiedtextview.PHJustifiedTextView
        android:id="@+id/txt_test"
        android:layout_width="0dp"
        android:layout_height="wrap_content"
